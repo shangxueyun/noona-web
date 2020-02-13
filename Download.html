@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- 声明文档使用的字符编码 -->
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://m.noonaapps.com/mgpyh_files/webLogo.png">
+	<meta property="fb:app_id" content="680630372383411">
+	<meta property="og:url" content="http://www.noonaapps.com/">
+	<meta property="og:title" content="Noona - A better way to discover the world">
+	<meta property="og:description" content="Noona - A better way to discover the world">
+	<meta name="weibo:webpage:create_at" content="">
+	<meta name="weibo:webpage:update_at" content="">
+	<meta name="mobile-agent" content="format=html5;url=http://m.noonaapps.com/">
+	<link rel="canonical" href="http://www.noonaapps.com/">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<meta name="keywords" content="fumimate,download,short films,magazin,Stream,popular apps,live music,kwai,musically,tik tok,youtube">
+	<meta name="description" content="Noona - A better way to discover the world">
+	<meta name="apple-itunes-app" content="app-id=1006667886">
+	<meta name="application-name" content="Noona | funny video">
+	<meta name="baidu-site-verification" content="iyJ8lXUBoz">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<title>Noona - Download</title>
+	<style>
+	    body{
+	        width: 100%;
+	        height: 100%;
+	        margin: 0;
+	        position: relative;
+	    }
+	    body div:first-child{    width: 20rem;
+	    font-size: 20px;
+	    margin: 0 auto;
+	    text-align: center;
+	    margin-top: 4rem;}
+	    body div:last-child{    width: 12rem;
+	    font-size: 20px;
+	    margin: 0 auto;
+	    text-align: center;}
+	</style>
+	<style>
+	    #loading_div{
+	        width: 100%;
+	        height: 100%;
+	        position: absolute;
+	        background: rgba(255, 255, 255, 0.8);
+	        top: 0;
+	        left: 0;
+	        z-index: 111;
+	    }
+	    #loading_div .loading{
+	        width: 2.5rem;
+	        height: 2.5rem;
+	        margin-top: calc(100vh - 76vh);
+	        border-radius: 1.5rem;
+	        border: 2px solid transparent;
+	        border-top: 2px solid #0000008f;
+	        position: absolute;
+	        top: 35%;
+	        left: 50%;
+	        transform:rotate(0deg);
+	        animation:myfirst .5s both infinite;
+	        -moz-animation:myfirst .5s both infinite; 
+	        -webkit-animation:myfirst .5s both infinite; 
+	        -o-animation:myfirst .5s both infinite; 
+	    }
+	    
+	    @keyframes myfirst
+	    {
+	    0%   {transform:rotate(0deg);}
+	    25%  {transform:rotate(72deg);}
+	    50%  {transform:rotate(144deg);}
+	    75% {transform:rotate(230deg);}
+	    100% {transform:rotate(360deg);}
+	    }
+	    
+	    @-webkit-keyframes myfirst /* Safari and Chrome */
+	    {
+	        0%   {transform:rotate(0deg);}
+	    25%  {transform:rotate(72deg);}
+	    50%  {transform:rotate(144deg);}
+	    75% {transform:rotate(230deg);}
+	    100% {transform:rotate(360deg);}
+	    }
+	    hr{
+	        background: #eee;
+	    }
+	    </style>
+</head>
+
+<body>
+	<div id="loading_div">
+		<div class="loading"></div>
+	</div>
+	<script type="module">
+		import Detect from './mgpyh_files/detect.js'
+		// 安卓ios判断
+		if (Detect.os.ios && Detect.os.platform == 'iOS') {
+			window.location.href = 'https://itunes.apple.com/ph/app/id1446000206?l=zh&ls=1&mt=8'
+		} else {
+			window.location.href = 'https://play.google.com/store/apps/details?id=com.newspark.mobile'
+		}
+	</script>
+</body>
+
+</html>
